@@ -743,6 +743,16 @@ nav {
     margin-right: 30px;
 }
 
+@media screen and (max-width: 1200px) {
+    .h_menu li {
+        display: flex;
+        flex-wrap: nowrap;
+        margin-right: 20px;
+        margin-top: 10px;
+    }
+
+}
+
 @media screen and (max-width: 960px) {
 
     /* icon section */
@@ -897,7 +907,7 @@ nav {
         width: 50%;
         margin-top: 5%;
         margin-bottom: 5%;
-        margin-left: 22%;
+        margin-left: 26%;
     }
 
     .main_btn {
@@ -933,7 +943,7 @@ nav {
         width: 50%;
         margin-top: 5%;
         margin-bottom: 5%;
-        margin-left: 22%;
+        margin-left: 26%;
     }
 
     .main_2 .main_btn {
@@ -981,7 +991,7 @@ nav {
         width: 50%;
         margin-top: 5%;
         margin-bottom: 5%;
-        margin-left: 22%;
+        margin-left: 26%;
     }
 
     .sub_block .btn .sub_btn {
