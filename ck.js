@@ -1,4 +1,4 @@
-$('.h_menu > li').mouseenter(function () {
+$('.h_menu > li ').mouseenter(function () {
     let menu_i = $(this).index();
 
     if (menu_i < 7) {
@@ -10,7 +10,7 @@ $('.h_menu > li').mouseenter(function () {
         })
     }
 });
-$('.h_menu > li').mouseleave(function () {
+$('.h_menu > li ').mouseleave(function () {
     let menu_i = $(this).index();
 
     if (menu_i < 7) {
